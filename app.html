@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="topbar-title">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="7" height="7" rx="1.5" fill="var(--blue400)" opacity=".9"/><rect x="10" y="1" width="7" height="7" rx="1.5" fill="var(--teal400)" opacity=".9"/><rect x="1" y="10" width="7" height="7" rx="1.5" fill="var(--amber400)" opacity=".9"/><rect x="10" y="10" width="7" height="7" rx="1.5" fill="var(--purple400)" opacity=".9"/></svg>
+      Memory Management Visualizer
+      <span class="chip">Educational</span>
+    </div>
+    <div class="tabs" id="modeTabs">
+      <button class="tab-btn active" onclick="switchMode('paging')">Paging</button>
+      <button class="tab-btn" onclick="switchMode('segmentation')">Segmentation</button>
+      <button class="tab-btn" onclick="switchMode('virtual')">Virtual Memory</button>
+      <button class="tab-btn" onclick="switchMode('learn')">Learn</button>
+    </div>
+  </div>
+  <div class="main" id="mainArea"></div>
+</div>
+<div class="tooltip" id="tooltip"></div>
+<script src="app.js"></script>
+</body>
+</html>
