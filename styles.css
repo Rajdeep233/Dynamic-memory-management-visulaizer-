@@ -9,7 +9,7 @@
   --border2: var(--color-border-secondary);
   --r: var(--border-radius-md);
   --rl: var(--border-radius-lg);
-
+   
   --blue50: #E6F1FB; --blue200: #85B7EB; --blue400: #378ADD; --blue600: #185FA5; --blue800: #0C447C;
   --teal50: #E1F5EE; --teal200: #5DCAA5; --teal400: #1D9E75; --teal600: #0F6E56; --teal800: #085041;
   --amber50: #FAEEDA; --amber200: #EF9F27; --amber400: #BA7517; --amber600: #854F0B; --amber800: #633806;
